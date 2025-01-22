@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.nunito-regular { 
+  font-family: "Nunito", serif; 
+  font-weight: 400;
+} 
+.nunito-bold { 
+  font-family: "Nunito", serif; 
+  font-weight: 700;
+}
+
+header {
+    background-color: #0a0908;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+h1.gradient-text {
+    font-size: 2rem;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: blink-caret .75s step-end infinite;
+    background: linear-gradient(90deg,#d6a2ad, #E7EFC5,#028090, #ce1483,#564787); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+  }
+  
+
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  

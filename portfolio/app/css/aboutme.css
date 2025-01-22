@@ -1,0 +1,35 @@
+
+#aboutme {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7efc5; /* Usando uno de los colores de tu paleta */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  h2 {
+    color: #0a0908; /* Usando uno de los colores de tu paleta */
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ce1483; /* Usando uno de los colores de tu paleta */
+    padding-bottom: 5px;
+  }
+  
+  h4 {
+    color: #028090; /* Usando uno de los colores de tu paleta */
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  nav a {
+    color: #028090; /* Usando uno de los colores de tu paleta */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
