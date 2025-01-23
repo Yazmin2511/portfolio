@@ -24,7 +24,7 @@ h1.gradient-text {
     white-space: nowrap;
     animation: blink-caret .75s step-end infinite;
     background: linear-gradient(90deg,#d6a2ad, #E7EFC5,#028090, #ce1483,#564787); 
-    -webkit-background-clip: text; 
+    background-clip: text; 
     -webkit-text-fill-color: transparent; 
   }
   
@@ -41,7 +41,11 @@ h1.gradient-text {
   
   nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
     margin: 0 1rem;
   }
   
+  nav a:hover{
+    color : #564787;
+    
+  }
