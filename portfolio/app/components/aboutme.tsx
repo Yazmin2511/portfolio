@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/aboutme.css';
+//import '../css/aboutme.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faGitAlt } from 'node_modules/@fortawesome/free-brands-svg-icons';
 const aboutme = () => {
